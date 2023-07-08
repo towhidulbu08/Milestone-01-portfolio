@@ -1,4 +1,8 @@
 /* Common styles */
+* {
+    margin: 0;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -8,7 +12,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:50px 250px;
+    padding: 50px 230px;
 
 }
 
@@ -30,13 +34,13 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 50px;
-   
+
 }
 
 nav a {
     text-decoration: none;
     color: #474747;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .btn-primary {
@@ -44,8 +48,56 @@ nav a {
     background: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
-    padding:18px 35px;
+    padding: 18px 35px;
     height: 64px;
-    color:white;
-    border:none;
+    color: white;
+    border: none;
+}
+
+/* header style begin */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 50px 38px 30px 230px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-intro {
+    padding-top: 150px;
+    padding-bottom: 200px;
+    padding-right: 150px;
+}
+
+.banner-greetings {
+    padding-bottom: 20px;
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    padding-bottom: 30px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.banner-description {
+    padding-bottom: 40px;
+    color: #757575;
+    font-size: 18px;
+}
+
+.new-color {
+    background: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    margin-left:12px;
 }
