@@ -32,7 +32,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 230px;
+    padding: 50px 200px;
 
 }
 
@@ -79,11 +79,11 @@ nav a {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
+    background-position: bottom right, 0% 40%;
 }
 
 .banner {
-    padding: 50px 38px 0px 230px;
+    padding: 50px 38px 0px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
