@@ -205,38 +205,107 @@ nav a {
 }
 
 
-.my-education-title,.my-experience-title {
+.my-education-title,
+.my-experience-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 23px;
 }
 
-.education-title,.experience-title {
+.education-title,
+.experience-title {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 23px;
 }
 
-.education-subtitle,.experience-subtitle {
+.education-subtitle,
+.experience-subtitle {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 23px;
 }
 
-.education-description,.experience-description {
+.education-description,
+.experience-description {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 23px;
 }
-hr{
+
+hr {
     margin-bottom: 16px;
     color: #D1D1D1;
 }
-.btn{
+
+.btn {
     text-align: center;
     margin-top: 40px;
+}
+
+/* footer style */
+footer {
+    margin-top: 0px;
+    background-color: #FFF8F3;
+    display: flex;
+
+
+}
+
+.two-column {
+    padding-top: 130px;
+    padding-right: 180px;
+    padding-left: 180px;
+    width: 50%;
+
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+.icon {}
+
+.icon a {
+    margin-right: 19px;
+
+}
+
+.contact input,
+input,
+textarea {
+    display: block;
+    margin-bottom: 23px;
+    border-radius: 5px;
+    background:  #FFF;
+    border:none;
+    padding:18px 30px;
+
+
+}
+.contact input[type="button"]{
+    background-color: #FD6E0A;
+}
+
+.contact input[type="text"],
+input[type="email"],textarea {
+    width: 100%;
+   
 }
